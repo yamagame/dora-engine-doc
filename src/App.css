@@ -1,0 +1,71 @@
+.App {
+}
+
+.App-header {
+  display: flex;
+  min-height: 42px;
+  color: #303030;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-title {
+  font-size: 1em;
+  margin: 0;
+  line-height: 43px;
+  text-align: center;
+}
+
+.App-header-button {
+  width: 100px;
+}
+
+.App-header-col {
+  flex: auto;
+}
+
+.Page-header {
+  border: solid 1px lightgray;
+  min-height: 20px;
+  color: #303030;
+}
+
+.Page-title {
+  display: inline-block;
+  font-size: 1em;
+  margin: 0;
+  margin-left: 10px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.Page-Number {
+  float: right;
+  font-size: 1em;
+  margin: 0;
+  margin-right: 10px;
+  line-height: 32px;
+}
+
+.Page-body {
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 2em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media print {
+  .page-divide {
+    page-break-before: always;
+  }
+}
