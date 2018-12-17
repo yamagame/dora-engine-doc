@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import PageHeader from './PageHeader';
 
-export default function({ pages, category='', }) {
+export default function({ pages, category='', title='', }) {
   return (
     <div>
+      <div className="App">
+        <PageHeader>{title}</PageHeader>
+      </div>
       {
         pages.map( (v, i) => {
           return v.page({
