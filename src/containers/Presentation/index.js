@@ -27,6 +27,10 @@ $/image/presentation/001.png
 ~
 
 imagesフォルダは、初期状態では/home/pi/Picturesフォルダになります。画像はRaspberryPi内のPicturesフォルダに配置しておかないといけません。
+
+#参考資料
+
+&&[ロボットプレゼン入門]https://docs.google.com/presentation/d/16PMK76QiX3qS9WauVdC11oTb866oyq26hPyFJG0cQQ8
 `
 
 export default class Presentation extends Component {

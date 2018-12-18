@@ -43,15 +43,12 @@ export default class TopPage extends Component {
 
               # コミュニケーションロボットエンジン
               !! ロボットエンジンについて機能ごとに解説したドキュメントです。
-              !! 内容は現在作成中です。
-              &[構成]${process.env.PUBLIC_URL}/structure
               &[microSDカード作成]${process.env.PUBLIC_URL}/os-image
               &[自動起動]${process.env.PUBLIC_URL}/auto-start
               &[シナリオエディタ]${process.env.PUBLIC_URL}/scenario-editor
               &[ドラスクリプト]${process.env.PUBLIC_URL}/dora-script
               &[プレゼンテーション]${process.env.PUBLIC_URL}/presentation
               &[イメージマップ]${process.env.PUBLIC_URL}/imagemap
-              &[クイズ]${process.env.PUBLIC_URL}/quiz
               &[管理者ツール]${process.env.PUBLIC_URL}/admin-tools
               &[チャットエンジン]${process.env.PUBLIC_URL}/chat-engine
               &[スケジューラ]${process.env.PUBLIC_URL}/scheduler
@@ -63,6 +60,21 @@ export default class TopPage extends Component {
               &[セキュリティについて]${process.env.PUBLIC_URL}/sequrity
               &[管理者パスワードの設定]${process.env.PUBLIC_URL}/password
               &[ゲームパッド連携]${process.env.PUBLIC_URL}/gamepad
+
+              # スライド/資料一覧
+              !! その他の資料です。
+              &&[ラズパイとVoiceKitで作ろう！]https://drive.google.com/open?id=12LfrsxzQDGRk-v81gttH9zKz_HMvV5Hq
+              &&[SDカード準備編]https://drive.google.com/open?id=1vC5NIiCZpHpVFmwjlOjlzPgPu2Eviu8bw89k2icR7IU
+              &&[UNIXコマンド実習]https://drive.google.com/open?id=1UxeKcgxwCIjwLVanK3-rxwTdfUputq6geBo4iZVjte8
+              &&[ダンボール組み立て編]https://drive.google.com/open?id=1BQVOtazwPxyc2CB2F4N2SynkiP7DC0Q8rYdlpKPsVc8
+              &&[ネットワーク実習]https://drive.google.com/open?id=1CII1KRSmdQEQRP1wE-roPHqoIL1LlfdDiXZ58KK1wVM
+              &&[はじめて編]https://drive.google.com/open?id=1el6OQ5uTFplzP9dXhG2KAymYc-0B00wqCrifEW835_8
+              &&[プレゼン入門]https://drive.google.com/open?id=16PMK76QiX3qS9WauVdC11oTb866oyq26hPyFJG0cQQ8
+              &&[マイク/スピーカ編]https://drive.google.com/open?id=1jWBIqOWHUJ2Q-HC0eAkgolqmlw4AN91eB3X3EQ5Vy14
+              &&[ラズパイ取り付け編]https://drive.google.com/open?id=1DkB5oHxaLwIQSne9gRQFG8j7_6FF9Dk2xiHnUbiUBXA
+              &&[ロボ印刷カット編]https://drive.google.com/open?id=1gpepShNKLjME8umoQe_YtkRdjxPpOwtSGNP2OWZYQ4c
+              &&[自動起動設定編]https://drive.google.com/open?id=1cYK_g-JJI3853LVMqwCi0bBbwn0kn4GuK1OSXX6ZA68
+              &&[電源投入編]https://drive.google.com/open?id=1JsNOr6oqoVxK3dUcXKgMnwOND4eVwpu8kAe-Xppx6kk
               `
             }
           />
@@ -71,3 +83,6 @@ export default class TopPage extends Component {
     )
   }
 }
+
+              // &[クイズ]${process.env.PUBLIC_URL}/quiz
+              // &[構成]${process.env.PUBLIC_URL}/structure

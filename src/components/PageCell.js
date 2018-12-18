@@ -75,6 +75,14 @@ export default class PageCell extends Component {
                 )
                 // return <p><a href={`${q[3].trim()}`} >{q[2]}</a></p>
               } else
+              if (t[1] == '&&') {
+                const q = v.match('(&+)\\[(.+)\\](.+)')
+                return (
+                  <p style={{paddingLeft: '1em'}} key={i}>
+                    <a target={encodeURIComponent(q[2])} href={`${q[3].trim()}`}>{q[2]}</a>
+                  </p>
+                )
+              } else
               if (v.trim() == '~~') {
                 return <div className="page-divide" key={i}></div>
               } else
