@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Page from '../components/Page';
 import PageCell from '../components/PageCell';
+import ImageCell from '../components/ImageCell';
 
 export default class TopPage extends Component {
   render() {
@@ -9,8 +10,9 @@ export default class TopPage extends Component {
         <Page
           title="トップページ"
         >
+          <ImageCell src="/image/IMG_6691.jpg" />
           <p><a href="https://github.com/yamagame/dora-engine">dora-engine</a> は <a href="https://www.raspberrypi.org/">RaspberryPi</a> で動作するコミュニケーションロボットエンジンです。</p>
-          <p>このページには開発するために必要な情報を載せています。</p>
+          <p>このページには開発のために必要な情報を載せています。</p>
           <PageCell
             category={'linux'}
             data={
@@ -18,9 +20,11 @@ export default class TopPage extends Component {
               # コンピュータサイエンスの基礎
               !! 「コンピュータサイエンスの基礎」はロボット開発に必要な基礎知識になります。ここに載っている知らない言葉は調べておきましょう。クリックするとググります。
               ユーザネームとパスワード
+              テキストファイルとバイナリファイル
               ファイルのパーミッション
               コマンドとプロセス
               sshとターミナル
+              bashとシェルスクリプト
               ホームディレクトリとカレントディレクトリ
               相対パスと絶対パス
               環境変数
