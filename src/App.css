@@ -32,6 +32,12 @@
   color: #303030;
 }
 
+.Page-header-col {
+  margin: 0;
+  margin-left: 10px;
+  line-height: 32px;
+}
+
 .Page-title {
   display: inline-block;
   font-size: 1em;

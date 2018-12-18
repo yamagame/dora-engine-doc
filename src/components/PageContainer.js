@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import PageHeader from './PageHeader';
+import MarkCell from './MarkCell';
 
-export default function({ pages, category='', title='', }) {
+export default function({ pages, category='', title='', data='', }) {
   return (
     <div>
       <div className="App">
         <PageHeader>{title}</PageHeader>
       </div>
       {
-        pages.map( (v, i) => {
+        (data) ? <MarkCell data={data} /> : null
+      }
+      {
+        (pages) ? pages.map( (v, i) => {
           return v.page({
             pageInfo: {
               title: v.title,
@@ -17,7 +21,7 @@ export default function({ pages, category='', title='', }) {
               category,
             },
           })
-        })
+        }) : null
       }
     </div>
   )

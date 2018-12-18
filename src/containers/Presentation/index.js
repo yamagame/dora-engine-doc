@@ -1,14 +1,36 @@
 import React, { Component } from 'react';
 import PageContainer from '../../components/PageContainer';
 
-import Page000 from './Page000';
+const data = `
+ロボットによるプレゼンテーション画面は以下のURLをブラウザで開くと表示されます。
 
-const pages = [
-  { page: Page000, title: '概要', },
-]
+~
+http://[ロボットのIPアドレス]:3090/
+~
+
+初期状態では、以下のような画面になります。
+
+$/image/presentation/002.png
+
+適当な名前を入力してスタートボタンをクリックします。
+
+$/image/presentation/001.png
+
+プレゼンテーション画面はロボットエンジンが以前の画面を記憶していますので、以前に何かしらの画面が表示されていればその画面が表示されます。
+
+# スライド表示コマンド
+
+以下の様なコマンドをスクリプトエディターで実行するとプレゼンテーション画面の画像が変更できます。
+
+~
+/quiz.slide/images/sunset/001.png
+~
+
+imagesフォルダは、初期状態では/home/pi/Picturesフォルダになります。画像はRaspberryPi内のPicturesフォルダに配置しておかないといけません。
+`
 
 export default class Presentation extends Component {
   render() {
-    return <PageContainer title="プレゼンテーション" pages={pages} />
+    return <PageContainer title="プレゼンテーション" data={data} />
   }
 }

@@ -28,7 +28,7 @@ export default class TopPage extends Component {
               ホームディレクトリとカレントディレクトリ
               相対パスと絶対パス
               環境変数
-              公開鍵暗号方式
+              公開鍵暗号方式と署名
               WebサーバとHTTP
               サービスと自動起動
               TCP/IPとIPアドレス

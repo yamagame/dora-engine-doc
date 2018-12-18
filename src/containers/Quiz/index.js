@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import PageContainer from '../../components/PageContainer';
 
-import Page000 from './Page000';
-
-const pages = [
-  { page: Page000, title: '概要', },
-]
+const data = `
+`
 
 export default class Quiz extends Component {
   render() {
-    return <PageContainer title="クイズ" pages={pages} />
+    return <PageContainer title="クイズ" data={data} />
   }
 }
