@@ -4,7 +4,7 @@ export default function({ src })
 {
   return (
     <p align="center">
-      <img src={src} />
+      <img src={`${process.env.PUBLIC_URL}${src}`} />
     </p>
   )
 }

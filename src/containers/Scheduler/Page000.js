@@ -14,7 +14,7 @@ export default function({ pageInfo }) {
       maxPage={pageInfo.maxPage}
       pageDivide={false}
     >
-      <ImageCell src="./image/scheduler.png" />
+      <ImageCell src="/image/scheduler.png" />
     </Page>
   )
 }
