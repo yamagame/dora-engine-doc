@@ -5,24 +5,25 @@ rm -r "$DOC_PUBLIC/static"
 rm "$DOC_PUBLIC"/precache-manifest.*
 cp -r build/* "$DOC_PUBLIC/"
 Pages=`cat << EOS
-AdminTools
-ChatEngine
-GamePad
-ImageMap
-MICSensitivity
-OSImage
-Password
-Presentation
-Quiz
-ScenarioEditor
-Scheduler
-Sequrity
-SpeechToText
-Spreadsheet
-Structure
-TextToSpeech
-USBMic
-DoraScript
+admin-tools
+chat-engine
+gamepad
+imagemap
+mic-sensitivity
+os-image
+password
+presentation
+quiz
+scenario-editor
+scheduler
+sequrity
+speech-to-text
+spreadsheet
+structure
+text-to-speech
+usb-mic
+dora-script
+auto-start
 EOS
 `
 for i in ${Pages}; do

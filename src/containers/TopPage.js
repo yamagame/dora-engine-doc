@@ -41,6 +41,7 @@ export default class TopPage extends Component {
               !! ロボットエンジンについて機能ごとに解説したドキュメントです。内容は現在作成中です。
               &[構成]${process.env.PUBLIC_URL}/structure
               &[microSDカード作成]${process.env.PUBLIC_URL}/os-image
+              &[自動起動]${process.env.PUBLIC_URL}/auto-start
               &[シナリオエディタ]${process.env.PUBLIC_URL}/scenario-editor
               &[ドラスクリプト]${process.env.PUBLIC_URL}/dora-script
               &[プレゼンテーション]${process.env.PUBLIC_URL}/presentation
