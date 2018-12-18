@@ -35,14 +35,15 @@ export default class TopPage extends Component {
               DHCPと静的IPアドレス
 
               # 開発言語、プラットフォーム
-              !! ロボットエンジンは JavaScript 言語で作られています。ここで示したプラットフォームを用いて作られています。クリックするとググります。
+              !! ロボットエンジンは JavaScript 言語で作られており、ここで示したプラットフォームを使っています。クリックするとググります。
               JavaScript
               Node.js
               Electron
               React
 
               # コミュニケーションロボットエンジン
-              !! ロボットエンジンについて機能ごとに解説したドキュメントです。内容は現在作成中です。
+              !! ロボットエンジンについて機能ごとに解説したドキュメントです。
+              !! 内容は現在作成中です。
               &[構成]${process.env.PUBLIC_URL}/structure
               &[microSDカード作成]${process.env.PUBLIC_URL}/os-image
               &[自動起動]${process.env.PUBLIC_URL}/auto-start

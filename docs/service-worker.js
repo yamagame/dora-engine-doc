@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dora-engine-doc/precache-manifest.6db023aa5cbca4cfc94e430c9f3f0a79.js"
+  "/dora-engine-doc/precache-manifest.b44129e5375d974cf68bf8c99b95debb.js"
 );
 
 workbox.clientsClaim();
