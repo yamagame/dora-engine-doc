@@ -103,7 +103,7 @@ Chromiumを使用して画面を構成してもよいのですが、プリンタ
 
 dora-browserの使い方は下記のURLを参照してください。
 
-&[https://github.com/yamagame/dora-browser]https://github.com/yamagame/dora-browser
+&&[https://github.com/yamagame/dora-browser]https://github.com/yamagame/dora-browser
 `
 
 export default class AdminTools extends Component {
