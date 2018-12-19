@@ -24,6 +24,7 @@ text-to-speech
 usb-mic
 dora-script
 auto-start
+voice-cancel
 EOS
 `
 for i in ${Pages}; do

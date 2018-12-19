@@ -60,6 +60,7 @@ export default class TopPage extends Component {
               &[セキュリティについて]${process.env.PUBLIC_URL}/sequrity
               &[管理者パスワードの設定]${process.env.PUBLIC_URL}/password
               &[ゲームパッド連携]${process.env.PUBLIC_URL}/gamepad
+              &[発話のキャンセル]${process.env.PUBLIC_URL}/voice-cancel
 
               # スライド/資料一覧
               !! その他の資料です。

@@ -32,6 +32,7 @@ const TextToSpeech = LoadablePage('TextToSpeech', Loading);
 const USBMic = LoadablePage('USBMic', Loading);
 const DoraScript = LoadablePage('DoraScript', Loading);
 const AutoStart = LoadablePage('AutoStart', Loading);
+const VoiceCancel = LoadablePage('VoiceCancel', Loading);
 
 const TopPage = Loadable({
   loader: () => import('./containers/TopPage'),
@@ -67,6 +68,7 @@ class App extends Component {
             <Route path={`${process.env.PUBLIC_URL}/gamepad`} component={GamePad} />
             <Route path={`${process.env.PUBLIC_URL}/dora-script`} component={DoraScript} />
             <Route path={`${process.env.PUBLIC_URL}/auto-start`} component={AutoStart} />
+            <Route path={`${process.env.PUBLIC_URL}/voice-cancel`} component={VoiceCancel} />
           </Switch>
         </div>
       </Router>

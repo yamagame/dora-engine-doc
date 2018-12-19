@@ -69,8 +69,8 @@ export default class PageCell extends Component {
               if (t[1] == '&') {
                 const q = v.match('(&+)\\[(.+)\\](.+)')
                 return (
-                  <p style={{paddingLeft: '1em'}} key={i}>
-                    <RouterLink to={`${q[3].trim()}`}>{q[2]}</RouterLink>
+                  <p style={{paddingLeft: '1.5em'}} key={i}>
+                    ・<RouterLink to={`${q[3].trim()}`}>{q[2]}</RouterLink>
                   </p>
                 )
                 // return <p><a href={`${q[3].trim()}`} >{q[2]}</a></p>
@@ -78,8 +78,8 @@ export default class PageCell extends Component {
               if (t[1] == '&&') {
                 const q = v.match('(&+)\\[(.+)\\](.+)')
                 return (
-                  <p style={{paddingLeft: '1em'}} key={i}>
-                    <a target={encodeURIComponent(q[2])} href={`${q[3].trim()}`}>{q[2]}</a>
+                  <p style={{paddingLeft: '1.5em'}} key={i}>
+                    ・<a target={encodeURIComponent(q[2])} href={`${q[3].trim()}`}>{q[2]}</a>
                   </p>
                 )
               } else
@@ -111,8 +111,8 @@ export default class PageCell extends Component {
                   <p key={i}>
                     {
                       q.map( (v,i) => (
-                        <span style={{ paddingLeft: '1em' }} key={i}>
-                          <Link category={category} subcategory={subcategory}>
+                        <span style={{ paddingLeft: '1.5em' }} key={i}>
+                          ・<Link category={category} subcategory={subcategory}>
                             {v}
                           </Link>
                           {(i<q.length-1)?'、':''}
