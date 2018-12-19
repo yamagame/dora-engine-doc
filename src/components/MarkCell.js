@@ -91,6 +91,13 @@ export default class MarkCell extends Component {
                   </p>
                 )
               } else
+              if (t[1] == '!!!') {
+                return (
+                  <p style={{ marginLeft: '2.5em', marginRight: '1em', }} key={i}>
+                    <MathJax style={{paddingLeft: '1em'}} value={t[2].trim()} />
+                  </p>
+                )
+              } else
               if (t[1] == '#') {
                 return (
                   <PageHeader style={{ marginTop: '2em', }} key={i}>

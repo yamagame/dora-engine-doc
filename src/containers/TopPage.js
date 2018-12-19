@@ -15,6 +15,7 @@ export default class TopPage extends Component {
           <p>このページには開発のために必要な情報を載せています。</p>
           <PageCell
             category={'linux'}
+            subcategory={'raspbian'}
             data={
               `
               # コンピュータサイエンスの基礎
@@ -40,6 +41,20 @@ export default class TopPage extends Component {
               Node.js
               Electron
               React
+
+              # Raspbian と RaspberryPi
+              !! Raspbianの使い方です。クリックするとググります。
+              ~microSDカードの作成
+              ~WiFiへ接続
+              ~キーボードの設定
+              ~タイムゾーンの設定
+              ~パスワードの変更
+              ~ターミナル
+              ~Webブラウザ(Chromium)
+              ~GPIO
+              ~LEDを点灯させる
+              ~サーボモーターを動かす
+              ~USBマイクを有効にする
 
               # コミュニケーションロボットエンジン
               !! ロボットエンジンについて機能ごとに解説したドキュメントです。

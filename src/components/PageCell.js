@@ -92,11 +92,11 @@ export default class PageCell extends Component {
               if (t[1] == '~') {
                 const q = t[2].trim().split('、');
                 return (
-                  <p style={{paddingLeft: '1em'}} key={i}>
+                  <p key={i}>
                     {
                       q.map( (v,i) => (
-                        <span key={i}>
-                          <Link category={category} subcategory={subcategory}>
+                        <span style={{ paddingLeft: '1.5em' }} key={i}>
+                          ・<Link category={category} subcategory={subcategory}>
                             {v}
                           </Link>
                           {(i<q.length-1)?'、':''}
@@ -112,7 +112,7 @@ export default class PageCell extends Component {
                     {
                       q.map( (v,i) => (
                         <span style={{ paddingLeft: '1.5em' }} key={i}>
-                          ・<Link category={category} subcategory={subcategory}>
+                          ・<Link category={category}>
                             {v}
                           </Link>
                           {(i<q.length-1)?'、':''}
