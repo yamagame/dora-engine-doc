@@ -25,6 +25,7 @@ usb-mic
 dora-script
 auto-start
 voice-cancel
+poweroff
 EOS
 `
 for i in ${Pages}; do

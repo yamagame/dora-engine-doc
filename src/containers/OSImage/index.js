@@ -53,6 +53,19 @@ $ ./setup-font.sh
 
 &&[https://github.com/yamagame/dora-engine]https://github.com/yamagame/dora-engine
 
+# 画面のスリープを無効化する
+
+!! /etc/lightdm/lightdm.conf を管理者権限で修正します。
+
+~
+$ sudo nano /etc/lightdm/lightdm.conf
+~
+
+下記を追加します。
+
+~
+xserver-command=X -s 0 -dpms
+~
 `
 
 export default class OSImage extends Component {
