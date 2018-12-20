@@ -10,11 +10,11 @@ http://[ロボットのIPアドレス]:3090/
 
 初期状態では、以下のような画面になります。
 
-$/image/presentation/002.png
+$ /image/presentation/002.png
 
 適当な名前を入力してスタートボタンをクリックします。
 
-$/image/presentation/001.png
+$ /image/presentation/001.png
 
 プレゼンテーション画面はロボットエンジンが以前の画面を記憶していますので、以前に何かしらの画面が表示されていればその画面が表示されます。
 

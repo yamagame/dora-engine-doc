@@ -4,7 +4,7 @@ import PageContainer from '../../components/PageContainer';
 const data = `
 Google スプレッドシートに値を書き込むことができます。データは月次毎に別のシートに書き込まれます。
 
-$/image/google-sheet.png
+$ /image/google-sheet.png
 
 # 準備
 

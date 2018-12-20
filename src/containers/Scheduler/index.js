@@ -10,7 +10,7 @@ http://[ロボットのIPアドレス]:3090/scheduler
 
 スケジューラをドラスクリプトで操作することで日付に沿った記録や設定の変更が可能です。
 
-$/image/scheduler/001.png
+$ /image/scheduler/001.png
 
 # 画面操作
 
