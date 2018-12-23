@@ -15,12 +15,31 @@ GoogleのWebサイトから認証ファイルをダウンロードし、環境�
 
 &&[https://developers.google.com/sheets/api/quickstart/nodejs]https://developers.google.com/sheets/api/quickstart/nodejs
 
-上記ページのStep1を作業して credentials.json を取得し、保存先を環境変数ROBOT_GOOGLE_SHEET_CREDENTIAL_PATHで指定します。
+上記ページのStep1を作業して credentials.json を取得し、保存先を環境変数 ROBOT_GOOGLE_SHEET_CREDENTIAL_PATH で指定します。
 以下は例です。
 
 ~
 ROBOT_GOOGLE_SHEET_CREDENTIAL_PATH=/home/pi/credentials/sheet-api-credentials.json
 ROBOT_GOOGLE_SHEET_TOKEN_PATH=/home/pi/credentials/sheet-api-token.json
+~
+
+下記のコマンドを使って sheet-api-token.json ファイルを作成します。
+
+~
+$ cd ~/dora-engine
+$ ROBOT_GOOGLE_SHEET_CREDENTIAL_PATH=../credentials/sheet-api-credentials.json ROBOT_GOOGLE_SHEET_TOKEN_PATH=../credentials/sheet-api-token.json node google-router.js
+~
+
+コンソールに以下のメッセージが表示されれば成功です。
+
+~
+token saved
+~
+
+次のメッセージが表示された場合は、すでに作成済みです。
+
+~
+already exist token.
 ~
 
 # 書き込みコマンド

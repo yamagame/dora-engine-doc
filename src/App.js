@@ -34,6 +34,11 @@ const DoraScript = LoadablePage('DoraScript', Loading);
 const AutoStart = LoadablePage('AutoStart', Loading);
 const VoiceCancel = LoadablePage('VoiceCancel', Loading);
 const PowerOff = LoadablePage('PowerOff', Loading);
+const ENVVariable = LoadablePage('ENVVariable', Loading);
+const RobotHead = LoadablePage('RobotHead', Loading);
+const DoraBrowser = LoadablePage('DoraBrowser', Loading);
+const DoraUpdate = LoadablePage('DoraUpdate', Loading);
+const PrinterSupport = LoadablePage('PrinterSupport', Loading);
 
 const TopPage = Loadable({
   loader: () => import('./containers/TopPage'),
@@ -71,6 +76,11 @@ class App extends Component {
             <Route path={`${process.env.PUBLIC_URL}/auto-start`} component={AutoStart} />
             <Route path={`${process.env.PUBLIC_URL}/voice-cancel`} component={VoiceCancel} />
             <Route path={`${process.env.PUBLIC_URL}/poweroff`} component={PowerOff} />
+            <Route path={`${process.env.PUBLIC_URL}/env-variable`} component={ENVVariable} />
+            <Route path={`${process.env.PUBLIC_URL}/robot-head`} component={RobotHead} />
+            <Route path={`${process.env.PUBLIC_URL}/dora-browser`} component={DoraBrowser} />
+            <Route path={`${process.env.PUBLIC_URL}/dora-update`} component={DoraUpdate} />
+            <Route path={`${process.env.PUBLIC_URL}/printer-support`} component={PrinterSupport} />
           </Switch>
         </div>
       </Router>

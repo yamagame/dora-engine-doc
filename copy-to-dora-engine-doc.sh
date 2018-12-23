@@ -26,6 +26,11 @@ dora-script
 auto-start
 voice-cancel
 poweroff
+env-variable
+robot-head
+dora-browser
+dora-update
+printer-support
 EOS
 `
 for i in ${Pages}; do

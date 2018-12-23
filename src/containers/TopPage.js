@@ -62,6 +62,7 @@ export default class TopPage extends Component {
               &[自動起動]${process.env.PUBLIC_URL}/auto-start
               &[シナリオエディタ]${process.env.PUBLIC_URL}/scenario-editor
               &[ドラスクリプト]${process.env.PUBLIC_URL}/dora-script
+              &[ドラブラウザ]${process.env.PUBLIC_URL}/dora-browser
               &[プレゼンテーション]${process.env.PUBLIC_URL}/presentation
               &[イメージマップ]${process.env.PUBLIC_URL}/imagemap
               &[管理者ツール]${process.env.PUBLIC_URL}/admin-tools
@@ -77,6 +78,10 @@ export default class TopPage extends Component {
               &[ゲームパッド連携]${process.env.PUBLIC_URL}/gamepad
               &[発話のキャンセル]${process.env.PUBLIC_URL}/voice-cancel
               &[電源を切る]${process.env.PUBLIC_URL}/poweroff
+              &[環境変数の設定について]${process.env.PUBLIC_URL}/env-variable
+              &[頭の動きを止める]${process.env.PUBLIC_URL}/robot-head
+              &[ドラエンジンの更新]${process.env.PUBLIC_URL}/dora-update
+              &[プリンタ対応]${process.env.PUBLIC_URL}/printer-support
 
               # スライド/資料一覧
               !! その他の資料です。
