@@ -4,7 +4,7 @@ import PageContainer from '../../components/PageContainer';
 const data = `
 ロボットが発声中にボタン操作等で発話をキャンセルしたい場合があります。そのときは/join-flowコマンドを使用します。
 
-以下のサンプルコードを載せます。
+下記はサンプルコードです。
 
 ~
 /goto/:おしゃべり/:キャンセル待ち
