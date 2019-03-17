@@ -73,6 +73,7 @@ export default class TopPage extends Component {
               &[Google Speech-To-Text]${process.env.PUBLIC_URL}/speech-to-text
               &[Google Text-To-Speech]${process.env.PUBLIC_URL}/text-to-speech
               &[Google スプレッドシート]${process.env.PUBLIC_URL}/spreadsheet
+              &[AWS Polly]${process.env.PUBLIC_URL}/aws-polly
               &[セキュリティについて]${process.env.PUBLIC_URL}/sequrity
               &[管理者パスワードの設定]${process.env.PUBLIC_URL}/password
               &[ゲームパッド連携]${process.env.PUBLIC_URL}/gamepad

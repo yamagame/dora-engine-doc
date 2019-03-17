@@ -39,6 +39,7 @@ const RobotHead = LoadablePage('RobotHead', Loading);
 const DoraBrowser = LoadablePage('DoraBrowser', Loading);
 const DoraUpdate = LoadablePage('DoraUpdate', Loading);
 const PrinterSupport = LoadablePage('PrinterSupport', Loading);
+const AWSPolly = LoadablePage('AWSPolly', Loading);
 
 const TopPage = Loadable({
   loader: () => import('./containers/TopPage'),
@@ -81,6 +82,7 @@ class App extends Component {
             <Route path={`${process.env.PUBLIC_URL}/dora-browser`} component={DoraBrowser} />
             <Route path={`${process.env.PUBLIC_URL}/dora-update`} component={DoraUpdate} />
             <Route path={`${process.env.PUBLIC_URL}/printer-support`} component={PrinterSupport} />
+            <Route path={`${process.env.PUBLIC_URL}/aws-polly`} component={AWSPolly} />
           </Switch>
         </div>
       </Router>

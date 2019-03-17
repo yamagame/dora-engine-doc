@@ -31,6 +31,7 @@ robot-head
 dora-browser
 dora-update
 printer-support
+aws-polly
 EOS
 `
 for i in ${Pages}; do
