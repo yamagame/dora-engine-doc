@@ -6,7 +6,7 @@ Google の Text-to-Speech API を使って音声合成することができま�
 
 # 準備
 
-以下のページにしたがってAPIを有効にし、説明にしたがって環境変数 GOOGLE_APPLICATION_CREDENTIALS を設定します。
+以下のページに従ってAPIを有効にし、環境変数 GOOGLE_APPLICATION_CREDENTIALS を設定します。
 
 &&[https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries]https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries
 
