@@ -83,6 +83,8 @@ export default class TopPage extends Component {
               &[頭の動きを止める]${process.env.PUBLIC_URL}/robot-head
               &[ドラエンジンの更新]${process.env.PUBLIC_URL}/dora-update
               &[プリンタ対応]${process.env.PUBLIC_URL}/printer-support
+              &[外部コマンドの実行]${process.env.PUBLIC_URL}/external-command
+              &[シナリオのGitHub管理]${process.env.PUBLIC_URL}/github-scenario
 
               # スライド/資料一覧
               !! その他の資料です。

@@ -32,6 +32,8 @@ dora-browser
 dora-update
 printer-support
 aws-polly
+external-command
+github-scenario
 EOS
 `
 for i in ${Pages}; do
