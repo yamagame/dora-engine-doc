@@ -34,6 +34,7 @@ printer-support
 aws-polly
 external-command
 github-scenario
+tips
 EOS
 `
 for i in ${Pages}; do

@@ -42,6 +42,7 @@ const PrinterSupport = LoadablePage('PrinterSupport', Loading);
 const AWSPolly = LoadablePage('AWSPolly', Loading);
 const ExternalCommand = LoadablePage('ExternalCommand', Loading);
 const GitHubScenario = LoadablePage('GitHubScenario', Loading);
+const Tips = LoadablePage('Tips', Loading);
 
 const TopPage = Loadable({
   loader: () => import('./containers/TopPage'),
@@ -87,6 +88,7 @@ class App extends Component {
             <Route path={`${process.env.PUBLIC_URL}/aws-polly`} component={AWSPolly} />
             <Route path={`${process.env.PUBLIC_URL}/external-command`} component={ExternalCommand} />
             <Route path={`${process.env.PUBLIC_URL}/github-scenario`} component={GitHubScenario} />
+            <Route path={`${process.env.PUBLIC_URL}/tips`} component={Tips} />
           </Switch>
         </div>
       </Router>
