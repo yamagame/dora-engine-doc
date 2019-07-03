@@ -10,7 +10,7 @@ unclutterをインストールします。
 $ sudo apt-get install unclutter
 ~
 
-~/.config/autostart/hide-cursor.desktop に以下の内容のファイルを作成します。
+!! ~/.config/autostart/hide-cursor.desktop に以下の内容のファイルを作成します。
 
 ~
 [Desktop Entry]
@@ -22,7 +22,7 @@ Exec=unclutter -idle 10
 
 # 画面のスリープを抑制する方法
 
-/etc/lightdm/lightdm.conf に以下の１行を追記します。
+!! /etc/lightdm/lightdm.conf に以下の１行を追記します。
 
 ~
 xserver-command=X -s 0 -dpms
@@ -30,7 +30,7 @@ xserver-command=X -s 0 -dpms
 
 # 電流警告を非表示にする
 
-/boot/config.txt に以下の１行を追加します。
+!! /boot/config.txt に以下の１行を追加します。
 
 ~
 avoid_warnings=1
@@ -40,13 +40,13 @@ avoid_warnings=1
 
 DS34231を使った場合として説明します。
 
-/boot/config.txt に以下の１行を追記します。
+!! /boot/config.txt に以下の１行を追記します。
 
 ~
 dtoverlay=i2c-rtc,ds3231
 ~
 
-/lib/udev/hwclock-set を編集します。以下の３行をコメントアウトします。
+!! /lib/udev/hwclock-set を編集します。以下の３行をコメントアウトします。
 
 ~
 if [ -e /run/systemd/system ] ; then
@@ -65,6 +65,12 @@ fi
 
 ~
 $ sudo hwclock -r
+~
+
+手動でシステム時間を書き込むには以下のコマンドを使います。
+
+~
+$ sudo hwclock -w
 ~
 
 `
