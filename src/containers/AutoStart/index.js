@@ -22,10 +22,10 @@ RaspberryPiの電源オンでロボットエンジンが起動する方法を解
 
 ~
 $ cd ~/dora-engine
-$ ./setup-autostart.sh
+$ ./setup-autolaunch.sh
 ~
 
-# setup-autostart.shは何をしているか？
+# setup-autolaunch.shは何をしているか？
 
 ~
 #!/bin/sh
@@ -43,7 +43,7 @@ sudo systemctl enable movie-client.service
 # sudo service movie-client start
 ~
 
-setup-autostart.shの中身は上記のようになっています。
+setup-autolaunch.shの中身は上記のようになっています。
 
 ~
 sudo mv robot-server.service /lib/systemd/system/
@@ -59,7 +59,7 @@ sudo systemctl enable servo-head.service
 
 ２つのファイルを/lib/systemd/system/へコピーしたあと、上記のsystemctlコマンドを実行すると、robot-server.service と servo-head.service がシステムに登録されます。
 
-robot-server.serviceとservo-head.serviceの中身は次のようになっています。２つのファイルはほとんど同じ構成です。
+robot-server.service と servo-head.service の中身は次のようになっています。２つのファイルはほとんど同じ構成です。
 
 ~
 [Unit]
