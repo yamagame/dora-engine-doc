@@ -62,6 +62,7 @@ export default class TopPage extends Component {
               &[自動起動]${process.env.PUBLIC_URL}/auto-start
               &[シナリオエディタ]${process.env.PUBLIC_URL}/scenario-editor
               &[ドラスクリプト]${process.env.PUBLIC_URL}/dora-script
+              &[ログ出力]${process.env.PUBLIC_URL}/log
               &[ドラブラウザ]${process.env.PUBLIC_URL}/dora-browser
               &[プレゼンテーション]${process.env.PUBLIC_URL}/presentation
               &[クイズ]${process.env.PUBLIC_URL}/quiz

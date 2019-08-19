@@ -15,6 +15,7 @@ password
 presentation
 quiz
 scenario-editor
+log
 scheduler
 sequrity
 speech-to-text

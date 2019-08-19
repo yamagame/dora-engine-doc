@@ -23,6 +23,7 @@ const Password = LoadablePage('Password', Loading);
 const Presentation = LoadablePage('Presentation', Loading);
 const Quiz = LoadablePage('Quiz', Loading);
 const ScenarioEditor = LoadablePage('ScenarioEditor', Loading);
+const Log = LoadablePage('Log', Loading);
 const Scheduler = LoadablePage('Scheduler', Loading);
 const Sequrity = LoadablePage('Sequrity', Loading);
 const SpeechToText = LoadablePage('SpeechToText', Loading);
@@ -61,6 +62,7 @@ class App extends Component {
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={TopPage} />
             <Route path={`${process.env.PUBLIC_URL}/structure`} component={Structure} />
             <Route path={`${process.env.PUBLIC_URL}/scenario-editor`} component={ScenarioEditor} />
+            <Route path={`${process.env.PUBLIC_URL}/log`} component={Log} />
             <Route path={`${process.env.PUBLIC_URL}/os-image`} component={OSImage} />
             <Route path={`${process.env.PUBLIC_URL}/presentation`} component={Presentation} />
             <Route path={`${process.env.PUBLIC_URL}/imagemap`} component={ImageMap} />
