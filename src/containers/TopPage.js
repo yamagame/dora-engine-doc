@@ -71,10 +71,10 @@ export default class TopPage extends Component {
               &[スケジューラ]${process.env.PUBLIC_URL}/scheduler
               &[USBマイク対応]${process.env.PUBLIC_URL}/usb-mic
               &[マイク感度調整]${process.env.PUBLIC_URL}/mic-sensitivity
-              &[Google Speech-To-Text]${process.env.PUBLIC_URL}/speech-to-text
-              &[Google Text-To-Speech]${process.env.PUBLIC_URL}/text-to-speech
+              &[音声認識：Google Speech-To-Text]${process.env.PUBLIC_URL}/speech-to-text
+              &[音声合成：Google Text-To-Speech]${process.env.PUBLIC_URL}/text-to-speech
+              &[音声合成：AWS Polly]${process.env.PUBLIC_URL}/aws-polly
               &[Google スプレッドシート]${process.env.PUBLIC_URL}/spreadsheet
-              &[AWS Polly]${process.env.PUBLIC_URL}/aws-polly
               &[セキュリティについて]${process.env.PUBLIC_URL}/sequrity
               &[管理者パスワードの設定]${process.env.PUBLIC_URL}/password
               &[ゲームパッド連携]${process.env.PUBLIC_URL}/gamepad
