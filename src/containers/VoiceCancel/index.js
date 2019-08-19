@@ -17,7 +17,7 @@ const data = `
 /goto/:次の処理へ
 
 :キャンセル待ち
-/.waitevent.timeout/30000
+/.waitevent.timeout/0
 /wait-event
 /join-flow
 /goto/:次の処理へ
