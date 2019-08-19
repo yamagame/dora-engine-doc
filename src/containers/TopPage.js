@@ -75,6 +75,7 @@ export default class TopPage extends Component {
               &[音声認識：Google Speech-To-Text]${process.env.PUBLIC_URL}/speech-to-text
               &[音声合成：Google Text-To-Speech]${process.env.PUBLIC_URL}/text-to-speech
               &[音声合成：AWS Polly]${process.env.PUBLIC_URL}/aws-polly
+              &[多言語化]${process.env.PUBLIC_URL}/multilingual
               &[Google スプレッドシート]${process.env.PUBLIC_URL}/spreadsheet
               &[セキュリティについて]${process.env.PUBLIC_URL}/sequrity
               &[管理者パスワードの設定]${process.env.PUBLIC_URL}/password

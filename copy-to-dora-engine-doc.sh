@@ -35,6 +35,7 @@ printer-support
 aws-polly
 external-command
 github-scenario
+multilingual
 tips
 EOS
 `
