@@ -64,6 +64,7 @@ export default class TopPage extends Component {
               &[ドラスクリプト]${process.env.PUBLIC_URL}/dora-script
               &[ドラブラウザ]${process.env.PUBLIC_URL}/dora-browser
               &[プレゼンテーション]${process.env.PUBLIC_URL}/presentation
+              &[クイズ]${process.env.PUBLIC_URL}/quiz
               &[イメージマップ]${process.env.PUBLIC_URL}/imagemap
               &[管理者ツール]${process.env.PUBLIC_URL}/admin-tools
               &[チャットエンジン]${process.env.PUBLIC_URL}/chat-engine
