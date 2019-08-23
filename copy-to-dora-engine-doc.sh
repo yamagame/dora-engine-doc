@@ -36,6 +36,7 @@ aws-polly
 external-command
 github-scenario
 multilingual
+rtc
 tips
 EOS
 `

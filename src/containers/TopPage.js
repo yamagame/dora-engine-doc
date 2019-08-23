@@ -88,6 +88,7 @@ export default class TopPage extends Component {
               &[プリンタ対応]${process.env.PUBLIC_URL}/printer-support
               &[外部コマンドの実行]${process.env.PUBLIC_URL}/external-command
               &[シナリオのGitHub管理]${process.env.PUBLIC_URL}/github-scenario
+              &[RTC対応]${process.env.PUBLIC_URL}/rtc
               &[その他]${process.env.PUBLIC_URL}/tips
 
               # スライド/資料一覧
