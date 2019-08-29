@@ -37,6 +37,7 @@ external-command
 github-scenario
 multilingual
 rtc
+translation
 tips
 EOS
 `

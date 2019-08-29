@@ -45,6 +45,7 @@ const ExternalCommand = LoadablePage('ExternalCommand', Loading);
 const GitHubScenario = LoadablePage('GitHubScenario', Loading);
 const Multilingual = LoadablePage('Multilingual', Loading);
 const RTC = LoadablePage('RTC', Loading);
+const Translation = LoadablePage('Translation', Loading);
 const Tips = LoadablePage('Tips', Loading);
 
 const TopPage = Loadable({
@@ -94,6 +95,7 @@ class App extends Component {
             <Route path={`${process.env.PUBLIC_URL}/github-scenario`} component={GitHubScenario} />
             <Route path={`${process.env.PUBLIC_URL}/multilingual`} component={Multilingual} />
             <Route path={`${process.env.PUBLIC_URL}/rtc`} component={RTC} />
+            <Route path={`${process.env.PUBLIC_URL}/translation`} component={Translation} />
             <Route path={`${process.env.PUBLIC_URL}/tips`} component={Tips} />
           </Switch>
         </div>
