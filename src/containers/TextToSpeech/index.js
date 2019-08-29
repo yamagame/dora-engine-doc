@@ -29,8 +29,9 @@ Google の Text-to-Speech API を使って音声合成することができま�
 音声名を使って指定することもできます。
 
 ~
+/.speech.languageCode/en-US
 /.speech.name/en-US-Wavenet-C
-こんにちは
+Hello
 ~
 
 言語コードについては次のページを参照してください。
