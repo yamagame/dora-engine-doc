@@ -37,6 +37,15 @@ avoid_warnings=1
 ~
 ~
 
+# ブラウザの自動起動
+
+以下のコマンドを実行するとフルスクリーンで Raspberry Pi の Chromium ブラウザが立ち上がります。
+
+~
+/command/open-browser.sh
+~
+
+何度も実行するとウインドウが複数開いてしまいますので、起動時に一回だけ実行するようにしましょう。
 `
 
 export default class Quiz extends Component {
