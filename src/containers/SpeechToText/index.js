@@ -5,9 +5,12 @@ const data = `
 音声認識に Google Speech-to-Text API を使用しています。
 
 #準備
-下記URLのページの「Google Speech APIの準備」を参照して設定します。
 
-&&[https://github.com/yamagame/dora-engine]https://github.com/yamagame/dora-engine
+環境変数 GOOGLE_APPLICATION_CREDENTIALS に使用する Google Cloud Project の認証ファイルへのパスを指定します。
+
+認証ファイル(JSON ファイル)の取得方法については以下を参照してください。
+
+&&[https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries]https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries
 
 #音声認識コマンド
 
@@ -67,6 +70,7 @@ Google Speech-to-Text の「音声言語の自動検出」の機能を使って�
 &&[https://cloud.google.com/speech-to-text/docs/languages]https://cloud.google.com/speech-to-text/docs/languages
 
 #料金
+
 Google Speech-to-Text APIの料金については次のページを参照してください。
 
 &&[https://cloud.google.com/speech-to-text/pricing]https://cloud.google.com/speech-to-text/pricing
