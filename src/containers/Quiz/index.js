@@ -17,6 +17,7 @@ $ /image/quiz/001.png
 /ng/アイスクリーム
 /ng/パイナップル
 /quiz.open/no-time
+/quiz.show/speech-button
 /quiz.wait
 晩御飯のおかずに最適なものはどれ？
 /wait-event/:例外
