@@ -23,11 +23,9 @@ $ /image/quiz/001.png
 /wait-event/:例外
 /.payload/{{speechText}}
 /quiz.speech/{{payload}}
-/fork/:正解チェック
-:正解チェック
-/check/ポテト
-/check/サラダ
-/joinAll/:不正解
+/if/ポテトサラダ/:正解
+/goto/:不正解
+
 :正解
 
 その通り。
