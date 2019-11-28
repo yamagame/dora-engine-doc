@@ -36,6 +36,17 @@ $ /image/imagemap/004.png
 ~
 /quiz.slide/images/greeting/001.png.json
 /wait-event
+/if/こんにちは/:Hello
+/if/こんばんは/:GoodEvening
+/end
+
+:Hello
+こんにちは
+/end
+
+:GoodEvening
+こんばんは
+/end
 ~
 
 ここでボタンをクリックするとpayloadにラベル文字が代入され、ラベルが発話されたときと同じ様に動作します。
