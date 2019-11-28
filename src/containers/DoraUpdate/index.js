@@ -12,7 +12,9 @@ $ rm -r node_modules/dora
 $ rm -r node_modules/mic
 $ npm i
 ~
+`
 
+/*`
 GRPC関連でエラーが出る場合は以下のコマンドを試してみてください。
 
 ~
@@ -27,7 +29,7 @@ $ npm rebuild grpc --build-from-source
 ~
 
 setup-autolaunch.sh を実行すると、servo-head.service と robot-server.service が元に戻りますので、環境変数の設定をする場合はそれぞれのファイルを適宜、書き換えてください。
-`
+`*/
 
 export default class USBMic extends Component {
   render() {
