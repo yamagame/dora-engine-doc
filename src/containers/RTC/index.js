@@ -8,7 +8,13 @@ RTC(リアルタイムクロック)をI2C経由で接続することでこの問
 
 DS3231を使った場合として説明します。
 
-!! /boot/config.txt に以下の１行を追記します。
+まず、I2Cを有効にします。/boot/config.txt に以下の１行を追記します。
+
+~
+dtparam=i2c_arm=on
+~
+
+次に RTC を有効にします。 /boot/config.txt に以下の１行を追記します。
 
 ~
 dtoverlay=i2c-rtc,ds3231
