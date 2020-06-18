@@ -35,7 +35,6 @@ xserver-command=X -s 0 -dpms
 ~
 avoid_warnings=1
 ~
-~
 
 # ブラウザの自動起動
 

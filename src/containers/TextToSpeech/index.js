@@ -60,6 +60,7 @@ Google Cloud Platfrom のコンソールからプロジェクトのダッシュ�
 $ /image/dashboard.png
 
 #料金
+
 Google Text-to-Speech APIの料金については次のページを参照してください。
 
 &&[https://cloud.google.com/text-to-speech/pricing]https://cloud.google.com/text-to-speech/pricing
