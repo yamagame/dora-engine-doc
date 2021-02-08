@@ -31,21 +31,13 @@ $ git pull
 
 #リソースを一元管理する
 
-リポジトリに以下のディレクトリを作成します。
-
-~
-Sound
-Pictures
-Command
-~
-
 それぞれのディレクトリのシンボリックリンクを以下のようにして作成します。
 
 ~
 $ cd ~/Documents/[リポジトリ名]
-$ ln -s \`realpath ./Sound\` ~/Sound/[リポジトリ名]
-$ ln -s \`realpath ./Pictures\` ~/Pictures/[リポジトリ名]
-$ ln -s \`realpath ./Command\` ~/dora-engine/command/[リポジトリ名]
+$ ln -s \`realpath ~/Sound\` Sound
+$ ln -s \`realpath ~/Pictures\` Pictures
+$ ln -s \`realpath ~/dora-engine/command\` Command
 ~
 `
 
