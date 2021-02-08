@@ -35,9 +35,9 @@ $ git pull
 
 ~
 $ cd ~/Documents/[リポジトリ名]
-$ ln -s \`realpath ~/Sound\` Sound
-$ ln -s \`realpath ~/Pictures\` Pictures
-$ ln -s \`realpath ~/dora-engine/command\` Command
+$ ln -s \`realpath ~/Sound/[リポジトリ名]\` Sound
+$ ln -s \`realpath ~/Pictures/[リポジトリ名]\` Pictures
+$ ln -s \`realpath ~/dora-engine/command/[リポジトリ名]\` Command
 ~
 `
 
